@@ -28,9 +28,9 @@ Notre produit est un outil pédagogique d'aide pour apprendre le code.
 
 Notre équipe est composée de :
 
-- 3 développeurs front-end
-- 2 développeurs back-end
-- 1 lead-developpeur / devops
+- 3 développeurs front-end( Celena, Massé, Chiara ) 
+- 2 développeurs back-end( Fridjy, Eva)
+- 1 lead-developpeur / devops ( Eva ) 
 
 ## Stack
 
@@ -38,8 +38,8 @@ Notre Stack technique est composée de :
 
 - Frontend : 
 - Backend : [PHP] 
-- BDD : SQL
-- Ops : 
+- BDD : [SQL]
+- Ops : [Docker] 
 
 ## Bonnes pratiques
 
@@ -59,6 +59,12 @@ Notre Stack technique est composée de :
 ### Microservices
 
 ## Choix techniques
+* expliquer quel language on utilise et pourquoi on les utilise*
+
+
+On utlise l'api de spotify qui utilise une base de donnée Cassandra
+  ![image](https://github.com/lahonda77/festival-app/assets/125769705/57b18df5-6a62-40e7-9caa-7c40f7563fb8)
+   
 
 ### Frontend
 
@@ -75,8 +81,7 @@ Nos possibilités étaient :
 | --- | --- | --- | --- | --- |
 | Html, css, Js| 5/5 | 4/5 | 4/5 | Connus par toute l'équipe |
 | React | 2/5 | 5/5 | 4/5 | Envie d'avoir plus de connaissance sur cette solution |
-| PHP | 4/5 | 4/5 | 4/5 | Solution prête pour la production |
-| HTMX | 0/5 | 2/5 | 3/5 | A tester |
+
 
 - * On doit expliquer quand est-ce-queon utlise toute les techno
 
@@ -84,9 +89,22 @@ Nos possibilités étaient :
 
 ### Backend
 
+Nos posibilités étaient : 
+
+-PHP
+
+| Nom | Connaissance | Envie | Documentation | Commentaires |
+| --- | --- | --- | --- | --- |
+|PHP| 4/5 | 4/5 | 4/5 | |
+
+
+
 ## Schéma de l'application
 
+
 ## Schéma de la base de données
+
+*image du schéma de la bd 
 
 ## Documentation API
 
