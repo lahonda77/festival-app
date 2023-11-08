@@ -28,7 +28,7 @@ Notre produit est un outil pédagogique d'aide pour apprendre le code.
 
 Notre équipe est composée de :
 
-- 2 développeurs front-end
+- 3 développeurs front-end
 - 2 développeurs back-end
 - 1 lead-developpeur / devops
 
@@ -36,19 +36,15 @@ Notre équipe est composée de :
 
 Notre Stack technique est composée de :
 
-- Frontend : [React]
-- Backend : [NodeJS] - [Express] + [PHP] - [Symfony] [Symfony]
-- BDD : [PostgreSQL] ([Prisma]) + [MongoDB] ([Mongoose])
-- Ops : [Docker] + GitHub Actions
+- Frontend : 
+- Backend : [PHP] 
+- BDD : SQL
+- Ops : 
 
 ## Bonnes pratiques
 
 - Nous utilisons une approche clean code.
 
-### Tests
-
-- Approche TDD
-- Jest + Cypress + Puppeteer
 
 ### Variable d'environnements
 
@@ -68,24 +64,21 @@ Notre Stack technique est composée de :
 
 Nos possibilités étaient :
 
-- Front end Vanilla (HTML, CSS, JavaScript)
-- [React]
-- [Vue]
-- [Next]
-- [HTMX](https://htmx.org/)
+- Html
+- CSS
+- Javascript
+
 
 <!-- Tableau markdown 5 lignes, 5 colonnes -->
 
 | Nom | Connaissance | Envie | Documentation | Commentaires |
 | --- | --- | --- | --- | --- |
-| React | 4/5 | 4/5 | 4/5 | Connus par toute l'équipe |
-| Vue | 2/5 | 5/5 | 4/5 | Maitrisé par 1 personne |
-| Next | 1/5 | 2/5 | 4/5 | Solution prête pour la production |
+| Html, css, Js| 5/5 | 4/5 | 4/5 | Connus par toute l'équipe |
+| React | 2/5 | 5/5 | 4/5 | Envie d'avoir plus de connaissance sur cette solution |
+| PHP | 4/5 | 4/5 | 4/5 | Solution prête pour la production |
 | HTMX | 0/5 | 2/5 | 3/5 | A tester |
 
-- Nous implémentons Vue pour la landing page et React pour le reste de l'application.
-- Next pourra être utilisé pour la version 2 de l'application.
-- HTMX sera testé pour la version 3.
+- * On doit expliquer quand est-ce-queon utlise toute les techno
 
 <!-- Genere un tableau de classification des technologies backend -->
 
@@ -100,5 +93,6 @@ Nos possibilités étaient :
 ## Outils gestion de projet
 
 - Figma
-- Trello
+- vscode
+- notion
 - GitHub
