@@ -1,4 +1,4 @@
-# Exemple de cahier des charges techniques
+# Cahier des charges techniques
 
 - [Exemple de cahier des charges techniques](#exemple-de-cahier-des-charges-techniques)
   - [Produit](#produit)
@@ -7,11 +7,8 @@
   - [Bonnes pratiques](#bonnes-pratiques)
     - [Tests](#tests)
     - [Variable d'environnements](#variable-denvironnements)
-    - [CI/CD](#cicd)
-    - [Linter](#linter)
     - [Git](#git)
     - [Design Pattern](#design-pattern)
-    - [Microservices](#microservices)
   - [Choix techniques](#choix-techniques)
     - [Frontend](#frontend)
     - [Backend](#backend)
