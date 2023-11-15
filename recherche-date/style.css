@@ -1,0 +1,45 @@
+body{
+    background: #1F1F1F;
+}
+
+
+.annuler{
+    background: #1F1F1F;
+    color: #a5a5a5;
+    border: transparent;
+    /* font-family: Helvetica Neue; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem;
+}
+
+h3{
+    color: #FFF;
+    text-align: center;
+    /* font-family: Helvetica Neue; */
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21875rem; /* 102.632% */
+}
+
+/* .date{
+    background-color: #2B2930;
+    border-radius: 2px;
+
+
+} */
+
+input[type= "date"]{
+    color-scheme: dark;
+    color: #FF5C8B;
+    border-radius: 10px;
+    padding: 23px;
+    text-align: center; 
+    position: absolute; /* postulat de départ */
+    top:12%; left: 30%; /* à 50%/50% du parent référent */
+    /* transform: translate(-50%, -50%); décalage de 50% de sa propre taille */
+    /* margin-right: 20px; */
+    /* opacity: 0.6; */
+}
