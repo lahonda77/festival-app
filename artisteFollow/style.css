@@ -1,0 +1,80 @@
+body{
+    background: #1F1F1F;
+}
+
+.retour{
+    background: hsl(0, 0%, 12%);
+    border:none;
+    color: #ffff;
+    /* flex-shrink: 0; */
+}
+
+.button-back{
+    position: relative;
+    top: 3rem;
+}
+
+
+h3{
+    color: #FFF;
+    text-align: center;
+    /* font-family: Helvetica Neue; */
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21875rem; /* 102.632% */
+}
+
+.artistes{
+    background: rgba(46, 46, 46, 1);
+    border-radius: 1rem;
+    width: 23.7rem;
+    height: 4.375rem;
+    margin-bottom: 0.5rem;
+}
+
+img{
+    position: relative; 
+    border-radius: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    top: 0.3rem;
+    left: 0.3rem;
+    border-radius: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
+}
+
+p{
+
+    position: relative;
+    bottom: 4rem;
+    left: 6rem;
+    display: flex;
+    width: 2.25rem;
+    height: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    /* font-family: Helvetica Neue; */
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem; 
+    color: #FFF; 
+     
+}
+
+/* position: relative;
+    bottom: 4rem;
+    left: 6rem;
+    display: flex;
+    width: 2.25rem;
+    height: 1.25rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    /* font-family: Helvetica Neue; */
+    /* font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem; */ 
