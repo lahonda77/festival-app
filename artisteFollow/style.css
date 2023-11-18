@@ -28,53 +28,27 @@ h3{
 .artistes{
     background: rgba(46, 46, 46, 1);
     border-radius: 1rem;
-    width: 23.7rem;
-    height: 4.375rem;
+    /* width: auto;  */
+    max-width: 23.7rem; 
+    padding: 0.5rem; 
+    height:4rem;
     margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 img{
-    position: relative; 
     border-radius: 1.875rem;
     width: 3.75rem;
     height: 3.75rem;
-    top: 0.3rem;
-    left: 0.3rem;
-    border-radius: 1.875rem;
-    width: 3.75rem;
-    height: 3.75rem;
+    margin-right: 0.5rem; 
 }
 
 p{
-
     position: relative;
     bottom: 4rem;
     left: 6rem;
-    display: flex;
-    width: 2.25rem;
-    height: 1.25rem;
-    flex-direction: column;
-    justify-content: center;
-    /* font-family: Helvetica Neue; */
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 100;
-    line-height: 1.21875rem; 
     color: #FFF; 
-     
 }
-
-/* position: relative;
-    bottom: 4rem;
-    left: 6rem;
-    display: flex;
-    width: 2.25rem;
-    height: 1.25rem;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFF;
-    /* font-family: Helvetica Neue; */
-    /* font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 100;
-    line-height: 1.21875rem; */ 
