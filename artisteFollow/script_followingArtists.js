@@ -7,17 +7,10 @@ if (!code) {
 } else {
     const accessToken = await getAccessToken(clientId, code);
     const profil = await fetchProfile(accessToken);
-    console.log(accessToken);
     const followingartists = await fetchFollowingArtists(accessToken);
-    console.log(followingartists);
-    populateUI(profil);
      // Parcourir les artistes et appeler la fonction pour afficher les détails
     followingartists.artists.items.forEach(displayfollowingartists);
-   const  artist = await fetchArtist(accessToken);
-    console.log(artist);
-    const  relatedartist = await fetchrelatedArtist(accessToken);
-    console.log(relatedartist);
-      console.log(profil); // Profile data logs to console
+
 }
 
 export async function redirectToAuthCodeFlow(clientId) {
@@ -77,13 +70,7 @@ export async function getAccessToken(clientId, code) {
     return access_token;
 }
 
-async function fetchProfile(token) {
-    const result = await fetch("https://api.spotify.com/v1/me", {
-        method: "GET", headers: { Authorization: `Bearer ${token}` }
-    });
-    return await result.json();
-    
-} 
+
 async function fetchFollowingArtists(token) {
     const result = await fetch("https://api.spotify.com/v1/me/following?type=artist&offset=0&limit=10", {
         method: "GET", headers: { Authorization: `Bearer ${token}` }
@@ -92,21 +79,7 @@ async function fetchFollowingArtists(token) {
     
 } 
 
-function populateUI(profile) {
-    document.getElementById("displayName").innerText = profile.display_name;
-    if (profile.images[0]) {
-        const profileImage = new Image(200, 200);
-        profileImage.src = profile.images[0].url;
-        document.getElementById("avatar").appendChild(profileImage);
-        document.getElementById("imgUrl").innerText = profile.images[0].url;
-    }
-    document.getElementById("id").innerText = profile.id;
-    document.getElementById("email").innerText = profile.email;
-    document.getElementById("uri").innerText = profile.uri;
-    document.getElementById("uri").setAttribute("href", profile.external_urls.spotify);
-    document.getElementById("url").innerText = profile.href;
-    document.getElementById("url").setAttribute("href", profile.href);
-}
+
 
 function displayfollowingartists(artist) {
     const artistId = artist.id;
@@ -145,20 +118,3 @@ function displayfollowingartists(artist) {
     };
 }
 
-
-async function fetchArtist(token) {
-    const result = await fetch("https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg", {
-        method: "GET", headers: { Authorization: `Bearer ${token}` }
-    });
-    return await result.json();
-    
-} 
-
-
-async function fetchrelatedArtist(token) {
-    const result = await fetch("https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg/related-artists", {
-        method: "GET", headers: { Authorization: `Bearer ${token}` }
-    });
-    return await result.json();
-    
-} 
