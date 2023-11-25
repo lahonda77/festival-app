@@ -1,0 +1,73 @@
+body{
+    background: #1F1F1F;
+} 
+
+svg{
+    position: relative;
+    width: 0.82106rem;
+    height: 1.41456rem;
+    flex-shrink: 0;
+    fill: #A5A5A5;
+    top: 2.8rem;
+}
+img{
+    position: relative;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21875rem;
+}
+
+h4{
+    color: #FFF;
+
+}
+
+.festival{
+    border-radius: 0.75rem;
+    background:  #2E2E2E;
+    margin-bottom: 0.5rem;
+    height: 4.6rem;
+}
+
+span{
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem;
+}
+
+.date{
+    position: relative;
+    width: 15.1875rem;
+    color: #FFF;
+    /* font-family: Helvetica Neue; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem; /* 121.875% */
+    bottom: 5rem;
+    left: 5rem
+}
+
+p.name{
+    position: relative;
+    color: #FFF;
+    /* font-family: Helvetica Neue; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.21875rem; /* 97.5% */
+    bottom: 4.5rem;
+    left: 5rem;
+    
+}

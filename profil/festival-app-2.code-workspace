@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../festival-app-2"
+		},
+		{
+			"path": "../agenda-festival1"
+		},
+		{
+			"path": "../agenda-festival2"
+		},
+		{
+			"path": "../artisteFollow"
+		},
+		{
+			"path": "../header"
+		},
+		{
+			"path": "../notification"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../recherche-artiste1"
+		},
+		{
+			"path": "../recherche-artiste2"
+		},
+		{
+			"path": "../recherche-ville"
+		}
+	],
+	"settings": {}
+}
