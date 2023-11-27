@@ -1,8 +1,6 @@
 body{
     background: #1F1F1F;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .button-back{
@@ -23,12 +21,10 @@ h3{
     line-height: 1.21875rem; /* 102.632% */
 }
 
-.artistes{
+.header_artistes{
     background: rgba(46, 46, 46, 1);
     border-radius: 1rem;
     /* width: auto;  */
-    max-width: 23.7rem; 
-    padding: 0.5rem; 
     height:4rem;
     margin-bottom: 0.5rem;
     display: flex;
@@ -39,36 +35,36 @@ h3{
 
 .artiste{
     background:#2E2E2E;
-    width: auto;
-    height: 4.375rem;
     border-radius: 0.75rem;
     margin-bottom:0.5rem;
-   
+}
+
+.div_artiste{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
 }
 
 .image{
-    position: relative;
     border-radius: 1.875rem;
     width: 3.75rem;
     height: 3.75rem;
     margin-right: 0.5rem; 
     background-size: 3.75rem;
     background-repeat: no-repeat;
-    top: 0.3rem;
-    left:0.4rem;
 
 }
 
 p{
-    position: relative;
-    bottom: 4rem;
-    left: 6rem;
+    font-family:  Arial, Helvetica, sans-serif ;
+    margin-left: 15px;
     color: #FFF; 
 }
 
 .followingArtists{
     margin-bottom: 2rem;
-
+    padding: 0 12px; 
 }
 
 /* NAVBAR */
@@ -84,7 +80,6 @@ p{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    
 }
 
 .Festival {
