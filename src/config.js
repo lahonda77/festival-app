@@ -36,7 +36,7 @@ export async function getAccessToken(clientId, code, refreshToken, page) {
         // Obtenir le jeton d'accès initial avec le code d'autorisation
         params.append("grant_type", "authorization_code");
         params.append("code", code);
-        params.append("redirect_uri", `http://127.0.0.1:5500/?"${page}`);
+        params.append("redirect_uri", `http://127.0.0.1:5500/"${page}`);
         params.append("code_verifier", verifier);
     } else if (refreshToken) {
         // Rafraîchir le jeton d'accès avec le jeton de rafraîchissement
@@ -52,14 +52,23 @@ export async function getAccessToken(clientId, code, refreshToken, page) {
 
     const { access_token, refresh_token } = await result.json();
 
+    // Ajouter une console.log pour vérifier si le code atteint ce point
+    console.log("Rafraîchissement du jeton d'accès");
+
      // Stockez le nouveau refresh token, s'il est renvoyé
      if (refresh_token) {
         localStorage.setItem("refreshToken", refresh_token);
+        // Ajouter une console.log pour vérifier si le refresh token est stocké correctement
+        console.log("Nouveau refresh token : ", refresh_token);
     }
 
     // Stockez également le jeton d'accès dans localStorage
     localStorage.setItem("accessToken", access_token);
+    console.log("Access token : ", access_token);
 
+    console.log("Params for token request:", params.toString());
+    console.log("Token request response:", result);
+    
     return access_token;
 }
 
