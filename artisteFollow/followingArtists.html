@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Spotify Profile</title>
+    <script src="./src/script_followingArtists.js" type="module"></script>
+    <script src="./src/navbar.js" type="module"></script>
+</head>
+<body>
+   <div id="artistes">
+        <div class="followingArtists">
+            <a href="oui.html"><button class="button-back"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23" fill="none">
+                <path d="M12.7842 1.90826C12.897 1.80029 12.9851 1.67327 13.0436 1.53446C13.1022 1.39566 13.1299 1.24778 13.1252 1.09928C13.1206 0.950782 13.0837 0.804562 13.0166 0.668972C12.9495 0.533382 12.8535 0.411078 12.7342 0.309042C12.6148 0.207006 12.4745 0.127237 12.321 0.0742893C12.1676 0.0213414 12.0042 -0.00374849 11.8401 0.000452398C11.6759 0.00465329 11.5143 0.0380626 11.3645 0.0987727C11.2146 0.159483 11.0795 0.246305 10.9667 0.354282L0.341678 10.5332C0.122258 10.7432 0 11.0212 0 11.3102C0 11.5992 0.122258 11.8772 0.341678 12.0872L10.9667 22.2672C11.0787 22.3776 11.2139 22.4667 11.3643 22.5294C11.5147 22.592 11.6773 22.6271 11.8428 22.6324C12.0083 22.6377 12.1733 22.6132 12.3283 22.5603C12.4832 22.5075 12.625 22.4273 12.7454 22.3244C12.8658 22.2215 12.9624 22.098 13.0296 21.9611C13.0969 21.8242 13.1333 21.6765 13.1369 21.5267C13.1405 21.3769 13.1112 21.228 13.0506 21.0885C12.9901 20.9491 12.8995 20.8219 12.7842 20.7144L2.96918 11.3102L12.7842 1.90826Z" fill="#A5A5A5"/>
+              </svg></button></a>
+            <h3>Les artistes que je suis</h3>
+        </div>
+    <div class="artiste">
+    <div id="5H4yInM5zmHqpKIoMNAx4r">
+        <div class="image" style="background-image: url(&quot;https://i.scdn.co/image/ab6761610000e5eb5fe7cabb8de1c0266cd2179c&quot;);"></div>
+        <p>Central Cee</p>
+    </div>
+    </div>
+    <div class="artiste">
+    <div id="5H4yInM5zmHqpKIoMNAx4r">
+        <div class="image" style="background-image: url(&quot;https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/69/0b/ac/690bacbb-7ccb-bc03-b25d-d83db752d91a/de3ed4c6-d856-4326-8c00-36bc0b901b95_ami-identity-94e8879f2274b24e35315437dd24f2c9-2023-09-18T19-10-56.938Z_cropped.png/486x486bb.png&quot;);"></div>
+        <p>Summer Walker</p>
+      </div>
+     </div>
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://musicainstantanea.com.br/wp-content/uploads/2020/09/SZA-edited-1.jpeg&quot;);"></div>
+            <p>SZA</p>
+          </div>
+         </div>
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;data:image/jpeg;base64,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&quot;);"></div>
+            <p>Brent Faiyaz</p>
+          </div>
+         </div>
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://m.media-amazon.com/images/I/41oZ-dlsuVL._AC_UF1000,1000_QL80_.jpg&quot;);"></div>
+            <p>Melanie Martinez</p>
+          </div>
+         </div>
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://upload.wikimedia.org/wikipedia/en/d/d0/Rosal%C3%ADa_-_Pienso_en_Tu_Mir%C3%A1.jpg&quot;);"></div>
+            <p>Rosalia</p>
+          </div>
+         </div>
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://upload.wikimedia.org/wikipedia/commons/c/c3/Peluso_2021.jpg&quot;);"></div>
+            <p>Nathy Peluso</p>
+          </div>
+         </div>  
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1wPapuw_UFjy_Yjl_BBMS0sZmf-IIj97upeewKreAAA&s&quot;);"></div>
+            <p>Normani</p>
+          </div>
+         </div>    
+    <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ42RDLhEFsQX5Ak6dWzrdQK-z3Wrio6lp1w&usqp=CAU&quot;);"></div>
+            <p>Hamza</p>
+          </div>
+         </div> 
+     <div class="artiste">
+        <div id="5H4yInM5zmHqpKIoMNAx4r">
+            <div class="image" style="background-image: url(&quot;https://www.recordturnover.com/wp-content/uploads/2020/10/a3027811081_10.jpg&quot;);"></div>
+            <p>Cleo Soul</p>
+          </div>
+         </div> 
+    </div>
+    <div class="navbar">
+        <div class="Festival"><a href="Mettre le lien de la page notification ">
+            <img src="../navbar/img/icon-park-solid_music.svg" alt=""> 
+            <p class="font_navbar">Festival</p>
+        </a></div>
+
+        <div class="notification"><a href="Mettre le lien de la page notification ">
+            <img src="../navbar/img/Vector.svg" alt="">
+            <p class="font_navbar">Notifications</p>
+        </a>
+        </div>
+
+        <div class="search_navbar"><a href="Mettre le lien de la page notification ">
+            <img src="../navbar/img/gg_search.svg" alt="">
+            <p class="font_navbar">Rechercher</p>
+        </a></div>
+
+        <div class="profil"><a href="Mettre le lien de la page notification ">
+            <img src="../navbar/img/gg_profile.svg" alt="">
+            <p class="font_navbar">Profil</p>
+        </a></div>
+    </div>
+</body>
+</html>

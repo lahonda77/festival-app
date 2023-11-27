@@ -1,0 +1,111 @@
+body{
+    background: #1F1F1F;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.button-back{
+    position: relative;
+    top: 3rem;
+    border:none;
+    background: hsl(0, 0%, 12%);
+}
+
+
+h3{
+    color: #FFF;
+    text-align: center;
+    /* font-family: Helvetica Neue; */
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.21875rem; /* 102.632% */
+}
+
+.artistes{
+    background: rgba(46, 46, 46, 1);
+    border-radius: 1rem;
+    /* width: auto;  */
+    max-width: 23.7rem; 
+    padding: 0.5rem; 
+    height:4rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.artiste{
+    background:#2E2E2E;
+    width: auto;
+    height: 4.375rem;
+    border-radius: 0.75rem;
+    margin-bottom:0.5rem;
+   
+}
+
+.image{
+    position: relative;
+    border-radius: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    margin-right: 0.5rem; 
+    background-size: 3.75rem;
+    background-repeat: no-repeat;
+    top: 0.3rem;
+    left:0.4rem;
+
+}
+
+p{
+    position: relative;
+    bottom: 4rem;
+    left: 6rem;
+    color: #FFF; 
+}
+
+.followingArtists{
+    margin-bottom: 2rem;
+
+}
+
+/* NAVBAR */
+
+.navbar {
+
+    position: fixed;
+    background: var(--Header, #24282C);
+
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.Festival {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.notification{
+    margin-top: 10px;
+}
+.search_navbar{
+    margin-top: 10px;
+}
+.profil {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.font_navbar{
+
+    color: var(--Gris-clair, #A5A5A5);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
+}
