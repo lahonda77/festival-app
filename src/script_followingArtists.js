@@ -1,18 +1,31 @@
 import { getAccessToken } from "./config.js";
 
-
 const clientId = "33c2366304a1438db1ff72675608d71e";
+
+
+// Déclaration de refreshToken avec une valeur par défaut (par exemple, vide)
+let refreshToken = "";
+
+// Récupération du refreshToken depuis le local storage
+const storedRefreshToken = localStorage.getItem("refreshToken");
+if (storedRefreshToken) {
+    refreshToken = storedRefreshToken;
+}
+
 const accessToken = localStorage.getItem("accessToken");
- const newAccessToken = await getAccessToken(clientId, accessToken, null, "followingArtist.html");
+
+const newAccessToken = await getAccessToken(clientId, null, refreshToken, "followingArtist.html");
+
+// Utilisez directement le nouveau jeton d'accès ici
+const followingArtists = await fetchFollowingArtist(newAccessToken);
+
 // Stockez le nouveau token d'accès si nécessaire
 localStorage.setItem("accessToken", newAccessToken);
 
 
-
-if (!accessToken && !refreshToken) {
+if (!newAccessToken && !refreshToken) {
     document.location.href="./index.html";
 } else {
-    const followingArtists = await fetchFollowingArtist(accessToken);
     followingArtists.artists.items.forEach(displayFollowingArtists);
     console.log(followingArtists);
     
@@ -24,6 +37,8 @@ async function fetchFollowingArtist(token) {
     const result = await fetch(`https://api.spotify.com/v1/me/following?type=artist`, {
         method: "GET", headers: { Authorization: `Bearer ${token}` }
     });
+    console.log("Response from Spotify API:", result);
+
     return await result.json();
     
 } 
