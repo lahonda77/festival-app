@@ -1,0 +1,213 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1E2126;
+    font-size: 16px; /* Taille de base pour les unités relatives */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Centrer l'image */
+    opacity: 0.2; /* Opacité de 20% */
+}
+
+.logo-container{
+    display: flex;
+    width: 100%;
+    height: 9.375rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.logo-container img{
+    width: 4.625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+}
+
+.account-options{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 25.625rem;
+    height: 30.66188rem;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-1{
+    font-family: Helvetica Neue;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.text-2{
+    font-family: Helvetica Neue;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.bouton-spotify{
+    border-radius: 1.25rem;
+    width: 22rem;
+    border: none;
+    background: #1DB954;
+    color: white;
+    opacity: 0.99;
+    display: flex;
+    padding: 0.3125rem 0.5625rem 0.3125rem 0.3125rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.logo{
+    max-width: 40px;
+    margin-left: 2.5rem;
+}
+
+.fleche{
+    max-width: 40px;
+    margin-right: 2rem;
+}
+
+/* .container2{
+    margin-bottom: 10px;
+} */
+.pas-de-compte{
+    font-family: 'Helvetica Neue';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.inscrivez-vous{
+    color: white;
+    font-family: 'Helvetica Neue';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+
+    font-family: Helvetica Neue;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.03125rem;
+} */
+footer{
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+
+    font-family: Helvetica Neue;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.03125rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-links a:first-child {
+    margin-left: 0; /* Réinitialise la marge à gauche pour le premier lien */
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Ajuste la taille de la police pour les petits écrans */
+    }
+
+    .background-image {
+        background-size: cover; /* Ajuste la taille de l'image pour les petits écrans */
+    }
+
+    .text-1 {
+        font-size: 1rem; /* Ajuste la taille de la police pour les petits écrans */
+        margin-top: 50px; /* Ajuste la marge pour les petits écrans */
+    } 
+
+    .text-2 {
+        font-size: 0.9rem; /* Ajuste la taille de la police pour les petits écrans */
+        margin-top: 10px; /* Ajuste la marge pour les petits écrans */
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links a {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+}
+
+
+/* Grand écran */
+@media screen and (min-width: 1900px) {
+    .account-options {
+        margin-top: 6rem;
+    }
+}
