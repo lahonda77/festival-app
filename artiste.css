@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1E2126;
+    color: white;
+    font-size: 16px; /* Taille de base pour les unités relatives */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 4.625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+}
+
+.bouton-like{
+    display: inline-flex;
+    height: 2.0625rem;
+    padding: 0.75rem, 0.75rem;
+    border: none;
+    border-radius: 1.25rem;
+    background: #F2096B;
+    color: white;
+    opacity: 0.99;
+    padding: 0.3125rem 0.5625rem 0.3125rem 0.3125rem;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.875rem;
+}
+
+.like{
+
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+/* ------------------- NAVBAR -------------------- */
+.navbar {
+
+    position: absolute;
+    background: var(--Header, #24282C);
+
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.Festival {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.notification{
+    margin-top: 10px;
+}
+.search_navbar{
+    margin-top: 10px;
+}
+.profil {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.font_navbar{
+    color: var(--Gris-clair, #A5A5A5);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
+}

@@ -1,0 +1,175 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1E2126;
+    color: white;
+    font-size: 16px; /* Taille de base pour les unités relatives */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 4.625rem;
+    height: 1.375rem;
+    flex-shrink: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1E2126;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* ------------------- ARTISTES POPULAIRES -------------------- */
+
+.artistes-populaires{
+    position: relative;
+    width: 30rem;
+    height: 15.9375rem;
+    margin: auto;
+    flex-direction: column;
+
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.75rem;
+}
+.haut{
+    display: flex;
+    justify-content: space-between;
+}
+.titre{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.75rem;
+}
+
+.voir-plus{
+    width: auto;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+
+.artistes-container{
+    position: absolute;
+    width: 9rem;
+    height: 12.5rem;
+
+}
+
+.artiste{
+    width: 9rem;
+    height: 8.9375rem;
+    flex-shrink: 0;
+
+    border-radius: 0.75rem;
+    background: linear-gradient(180deg, rgba(188, 184, 184, 0.00) 0%, rgba(0, 0, 0, 0.69) 100%);
+}
+
+.img{
+    width: 9rem;
+    height: 8.9375rem;
+    flex-shrink: 0;
+
+    border-radius: 0.75rem;
+    background: linear-gradient(180deg, rgba(188, 184, 184, 0.00) 0%, rgba(0, 0, 0, 0.69) 100%);   
+}
+
+.plus{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.artiste-name{
+    position: absolute;
+    bottom: 3.8rem;
+    left: 1rem;
+    width: 3rem;
+    line-height: 1.5rem;
+}
+
+.infos{
+    position: absolute;
+    font-family: 'Helvetica Neue';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem; /* 280% */
+}
+
+/* ------------------- ARTISTES SUIVIS -------------------- */
+
+.artistes-suivis{
+    position: relative;
+    width: 30rem;
+    height: 15.9375rem;
+    flex-shrink: 0;
+    margin: auto;
+    top: 0.5rem;
+
+
+    font-family: 'Helvetica Neue';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.75rem;
+}
+/* ------------------- NAVBAR -------------------- */
+.navbar {
+
+    position: absolute;
+    background: var(--Header, #24282C);
+
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.Festival {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.notification{
+    margin-top: 10px;
+}
+.search_navbar{
+    margin-top: 10px;
+}
+.profil {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.font_navbar{
+    color: var(--Gris-clair, #A5A5A5);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
+}
