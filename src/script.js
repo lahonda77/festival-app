@@ -15,6 +15,7 @@ if (!code && !refreshToken) {
     // Utilisez le jeton d'accès pour accéder aux ressources protégées
     console.log(accessToken);
     const profil = await fetchProfile(accessToken);
+    console.log(profil);
     populateUI(profil);
 
 }

@@ -1,6 +1,6 @@
 import { getAccessToken } from "./config.js";
 
-const clientId = "33c2366304a1438db1ff72675608d71e";
+const clientId = "32009ef468f344e8dbe1fdbb0d1b85372";
 
 
 // Déclaration de refreshToken avec une valeur par défaut (par exemple, vide)
