@@ -1,4 +1,4 @@
-import { getAccessToken } from "./config.js";
+import { getAccessToken } from "../config.js";
 
 const clientId = "32009ef468f344e8dbe1fdbb0d1b85372";
 
@@ -24,7 +24,7 @@ localStorage.setItem("accessToken", newAccessToken);
 
 
 if (!newAccessToken && !refreshToken) {
-    document.location.href="./index.html";
+    document.location.href="./accueil.html";
 } else {
     followingArtists.artists.items.forEach(displayFollowingArtists);
     console.log(followingArtists);

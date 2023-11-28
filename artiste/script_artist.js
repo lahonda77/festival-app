@@ -1,4 +1,4 @@
-import { getAccessToken } from "./config.js";
+import { getAccessToken } from "../config.js";
 
 const clientId = "33c2366304a1438db1ff72675608d71e";
 
@@ -32,7 +32,7 @@ localStorage.setItem("accessToken", newAccessToken);
 
 
 if (!newAccessToken && !refreshToken) {
-    document.location.href="./index.html";
+    document.location.href="./accueil.html";
 } else {
     displayArtist(artist);
     relatedArtists.artists.forEach(displayrelatedartists);

@@ -1,4 +1,4 @@
-import { redirectToAuthCodeFlow, getAccessToken } from "./config.js";
+import { redirectToAuthCodeFlow, getAccessToken } from "../config.js";
 
 const clientId = "33c2366304a1438db1ff72675608d71e";
 const params = new URLSearchParams(window.location.search);
@@ -9,12 +9,13 @@ const refreshToken = localStorage.getItem("refreshToken");
 console.log(localStorage.getItem("refreshToken"));
 
 if (!code && !refreshToken) {
-    redirectToAuthCodeFlow(clientId, "index.html");
+    redirectToAuthCodeFlow(clientId, "accueil.html");
 } else {
-    const accessToken = await getAccessToken(clientId, code, refreshToken, "index.html");
+    const accessToken = await getAccessToken(clientId, code, refreshToken, "accueil.html");
     // Utilisez le jeton d'accès pour accéder aux ressources protégées
     console.log(accessToken);
     const profil = await fetchProfile(accessToken);
+    console.log(profil);
     populateUI(profil);
 
 }
