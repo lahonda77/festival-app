@@ -22,10 +22,48 @@ header img{
     flex-shrink: 0;
 }
 
+.artiste{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    top: 1rem;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 44.58%, #000 94.58%), url(/images/heart.png), lightgray 0px 0px / 100% 100% no-repeat;
+}
+
+.name{
+    position: relative;
+    bottom: 12rem;
+    left: 1rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.a-venir{
+    position: relative;
+    bottom: 15rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    left: 1rem;
+}
 .bouton-like{
+    position: relative;
+    bottom: 16rem;
+    left: 0.9rem;
     display: inline-flex;
     height: 2.0625rem;
-    padding: 0.75rem, 0.75rem;
     border: none;
     border-radius: 1.25rem;
     background: #F2096B;
@@ -34,9 +72,7 @@ header img{
     padding: 0.3125rem 0.5625rem 0.3125rem 0.3125rem;
     gap: 0.5rem;
     align-items: center;
-    margin-top: 30px;
     cursor: pointer;
-
 
     font-style: normal;
     font-weight: 700;
@@ -44,11 +80,62 @@ header img{
 }
 
 .like{
-
     top: 0.5rem;
     right: 0.5rem;
     width: 1.2rem;
     height: 1.2rem;
+}
+.prochains-festivals{
+    position: absolute;
+    top: 28rem;
+    left: 1rem;
+    display: block;
+}
+
+.titre{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.75rem;
+}
+
+.date-container{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    min-height: 5rem;
+    border-radius: 0.75rem;
+    background: #2E2E2E;
+    top: 4rem;
+    left: 1rem;
+    margin: auto;
+
+    font-size: 0.98438rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+}
+
+ .n1{
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+}
+
+.n2{
+    position: relative;
+    top: 0rem;
+    left: 1rem;
+}
+
+/* .date-container img{
+    max-width: 40px;
+    padding-right: 2rem;
+} */
+.artistes-similaires{
+    position: absolute;
+    padding-top: 1rem;
+    left: 1rem;
 }
 
 /* ------------------- NAVBAR -------------------- */
