@@ -1,5 +1,6 @@
 body{
     background: #1F1F1F;
+    font-family: 'Helvetica Neue', sans-serif;
 } 
 
 svg{
@@ -16,9 +17,9 @@ img{
     left: 0.4rem;
 }
 h3{
+    font-family: 'Helvetica Neue', sans-serif;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
     font-size: 1.1875rem;
     font-style: normal;
     font-weight: 500;
@@ -39,7 +40,6 @@ h4{
 
 span{
     color: #FFF;
-    font-family: Helvetica Neue;
     font-size: 0.9375rem;
     font-style: normal;
     font-weight: 100;
@@ -50,7 +50,6 @@ span{
     position: relative;
     width: 15.1875rem;
     color: #FFF;
-    /* font-family: Helvetica Neue; */
     font-size: 1rem;
     font-style: normal;
     font-weight: 100;
@@ -62,12 +61,14 @@ span{
 p.name{
     position: relative;
     color: #FFF;
-    /* font-family: Helvetica Neue; */
     font-size: 1rem;
     font-style: normal;
-    font-weight: 100;
     line-height: 1.21875rem; /* 97.5% */
     bottom: 4.5rem;
     left: 5rem;
     
+}
+
+.agenda{
+    margin-top: 50px;
 }

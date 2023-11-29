@@ -77,6 +77,11 @@ body {
 
 }
 
+.artistes-container a{
+    text-decoration: none;
+    color: white;
+}
+
 .artiste{
     width: 9rem;
     height: 8.9375rem;
@@ -120,6 +125,8 @@ body {
     line-height: 1.2rem; /* 280% */
 }
 
+
+
 /* ------------------- ARTISTES SUIVIS -------------------- */
 
 .artistes-suivis{
@@ -141,35 +148,25 @@ body {
 .navbar {
 
     position: absolute;
+    left: 0;
     background: var(--Header, #24282C);
-
+    position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
     
 }
+ 
 
-.Festival {
-    margin-left: 20px;
-    margin-top: 10px;
-}
 
-.notification{
-    margin-top: 10px;
-}
-.search_navbar{
-    margin-top: 10px;
-}
-.profil {
-    margin-right: 20px;
-    margin-top: 10px;
-}
 .font_navbar{
+    text-decoration: none;
     color: var(--Gris-clair, #A5A5A5);
-    font-family: Helvetica Neue;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-style: normal;
 }

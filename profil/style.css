@@ -1,7 +1,7 @@
 body{
     background: #1F1F1F;    
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 header{
@@ -87,4 +87,33 @@ li .box_icon{
 .position .festival {
     display: flex;
    justify-content: flex-start; 
+}
+
+
+
+/* ------------------- NAVBAR -------------------- */
+.navbar {
+
+    position: absolute;
+    left: 0;
+    background: var(--Header, #24282C);
+    position: fixed;
+    bottom: 0;
+    width: 92%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+ 
+
+
+.font_navbar{
+    text-decoration: none;
+    color: var(--Gris-clair, #A5A5A5);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
 }

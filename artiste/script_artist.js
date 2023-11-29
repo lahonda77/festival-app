@@ -1,4 +1,4 @@
-import { getAccessToken } from "../config.js";
+import { getAccessToken } from "../src/config.js";
 
 const clientId = "33c2366304a1438db1ff72675608d71e";
 

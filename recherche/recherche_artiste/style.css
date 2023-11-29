@@ -130,4 +130,31 @@ svg{
     height: 1.5rem;
 }
 
+/* ------------------- NAVBAR -------------------- */
+.navbar {
+
+    position: absolute;
+    left: 0;
+    background: var(--Header, #24282C);
+    position: fixed;
+    bottom: 0;
+    width: 92%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+ 
+
+
+.font_navbar{
+    text-decoration: none;
+    color: var(--Gris-clair, #A5A5A5);
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
+}
+
 
